@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display+SC';
+/*ここはリセット用*/
+
+  ul{
+    list-style:none;
+  }
+
+/*ここから本番用*/
+
+body{
+	background-color:#eee;
+	font-family: 'Playfair Display SC', serif;
+	background-image: url("images/bg2.jpg");
+}
+a {
+	text-decoration:none;
+}
+a:hover{
+	color:gold;
+	
+}
+
+}
+a:active {
+	color:red;
+}
+
+header{
+	background-color:#778899;
+	color:white;
+}
+header h1 {
+	text-align:center;
+	color:white;
+	font-size:45px;
+}
+article{
+	background-color:#b0c4de;
+	box-shadow:10px 20px 30px #5f9ea0;
+	border-radius: 20px;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+
+article > .content {
+	float:left;
+}
+
+article > figure {
+	width:30%;
+	float:left;
+
+}
+article >figure > img{
+    width:100%;
+}
+article p {
+	background-color:#f8f8ff;
+}
+
+article > p {
+	background-color:#dcdcdc;
+}
+
+.sub,.other,{
+	color:red;
+}
+
+
+p{
+	text-align: center;
+}
+
+div{
+	width:50%;
+	margin: 0 auto;
+	margin-bottom:30px;
+}
+
+ul.nav li{
+	display:inline;
+	border-right:1px solid white;
+}
+
+ul.nav:first-child {
+border-left: 1px solid white;
+}
+
+footer{
+	background-color:#778899;
+}
+
+aside{
+	float:left;
+}

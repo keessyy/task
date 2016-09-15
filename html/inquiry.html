@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>RICH LIFE STYLE</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="header">
+	<div class="header-inner">
+	<h1>お問い合わせ</h1>
+	
+	<ul class="nav">
+		<li class="first"><a href="index.html">HOME</li>
+		<li ><a href="#">お問い合わせ</a></li>
+		<li >自己紹介</a></li>
+		<li ><a href="#">リンク</a></li>
+	</ul>		
+	</div>																															
+</header>
+ <div>
+ <article class="main">
+	<form>
+	<div class="form-group">
+	<label for="">
+	 	タイトル：
+	</label>
+	 	<input class="form-control" type="text" name="title" value="" placeholder="タイトルを入力してください" />
+	 </div>
+	 	<div class="form-group">
+	 	<label for="">
+	  	お問い合わせ内容：
+	 	</label>
+	 	<textarea class="form-control" name="content" placeholder="お問い合わせ内容を入力してください"></textarea>
+	 	</div>
+	 	<div class="form-group">
+	 	<label for="">
+	 	性別：
+	 	</label>
+	 		<input type="radio" name="gender" value="男">男
+	 		<input type="radio" name="gender" value="女">女
+	 	</div>
+	 	<div class="form-group">
+	 	<label for="">
+	 	このページを何で知りましたか？：
+	 	</label>
+	 	<input type="checkbox" name="how[0]"　value="true">インターネット
+	 	<input type="checkbox" name="how[1]" 　value="true">新聞
+	 	<input type="checkbox" name="how[2]"　value="true">テレビ
+	 	<input type="checkbox" name="how[3]"　value="true">雑誌
+	 	<input type="checkbox" name="how[4]"　value="true">友人の紹介
+	 	<input type="checkbox" name="how[5]"　value="true">その他
+	 	</div>
+	 	<div class="form-group">
+	 	<label for="">
+	  	どこにお住まいですか？：
+	 	</label>
+	 		<select name="pref">
+        
+	 			<option value="東京">東京</option>
+	 			<option value="千葉">千葉</option>
+	 			<option value="神奈川">神奈川</option>
+	 			<option value="埼玉">埼玉</option>
+	 			<option value="大阪">大阪</option>
+	 			<option value="京都">京都</option>
+	 			<option value="滋賀">滋賀</option>
+
+			</select>
+	 	</div>
+	 	<div class="form-group">
+	 		<input type="submit" value="送信する">
+	 	</div>
+	</form>
+ </article>
+  </div>
+	<footer>
+		2016 Kenta Fujii INC.
+	</footer>
+	</body>
+</html>

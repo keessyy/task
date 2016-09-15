@@ -1,0 +1,174 @@
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display+SC';
+/*ここはリセット用*/
+*{
+	font-family:sans-serif;
+	margin:0;
+}
+  ul{
+    list-style:none;
+  }
+
+/*ここから本番用*/
+
+body{
+	background-color:#eee;
+	font-family: 'Playfair Display SC', serif;
+	background-image: url("images/bg2.jpg");
+
+
+}
+a {
+	text-decoration:none;
+}
+a:hover{
+	color:gold;
+	cursor:pointer;
+	
+}
+
+}
+a:active {
+	color:red;
+}
+
+header{
+	background-color:#778899;
+	color:white;
+	padding: 30px;
+	background-image: url("images/hiruzu.jpg");
+ 
+}
+header h1 {
+	text-align:center;
+	color:white;
+	font-size:45px;
+	letter-spacing: 5px;
+	font-family:serif;
+	margin-bottom: 20px;
+
+}
+article{
+	background-color:#b0c4de;
+	/*background:linear-gradient(to bottom,#1e5799 0%,#2989d8 100%);*/
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+51,dfe5d7+51,b3bead+100 */
+background: rgb(252,255,244); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(252,255,244,1) 0%, rgba(223,229,215,1) 51%, rgba(223,229,215,1) 51%, rgba(179,190,173,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 51%,rgba(223,229,215,1) 51%,rgba(179,190,173,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 51%,rgba(223,229,215,1) 51%,rgba(179,190,173,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+
+copy
+
+	box-shadow:10px 20px 30px #5f9ea0;
+	border-radius: 20px;
+	overflow:hidden;
+	margin:30px;
+	padding:20px;
+}
+
+article > .content {
+	float:left;
+}
+
+article > figure {
+	width:30%;
+	float:left;
+
+}
+article >figure > img{
+    width:100%;
+}
+article p {
+	background-color:#f8f8ff;
+}
+
+article > p {
+	background-color:#dcdcdc;
+}
+
+.sub,.other,{
+	color:red;
+}
+
+
+p{
+	text-align: center;
+}
+
+div{
+	width:50%;
+	margin: 0 auto;
+	margin-bottom:30px;
+}
+ul.nav{
+	font-size: 0;
+	text-align:right;
+}
+ul.nav li{
+	display:inline;
+	border-right:1px solid white;
+	font-size: 12pt;
+	padding: 0 5px;
+}
+
+ul.nav li > a{
+	color:white;
+}
+ul.nav li > a:hover{
+	color:gold;
+	cursor:pointer;
+}
+ul.nav >.first {
+border-left: 1px solid white;
+}
+
+aside{
+	float:left;
+}
+
+table{
+
+	margin: 0 auto;
+	border-collapse:collapse;
+}
+
+table td , table, th{
+	/*border: 1px solid gray;*/
+	padding:5px;
+}	
+
+table tr{
+	padding:5px;
+}
+
+table tbody > tr:nth-child(odd){
+	background-color:#808080;
+}
+
+table tbody > tr:nth-child(even){
+	background-color:white;
+}
+form{
+	padding:20px;
+}
+.form-group{
+	margin-bottom: 12px;
+	clear: both;
+	overflow: hidden;
+	width:100%;
+}
+.form-group label{
+	width:40%;
+	float:left;
+	}
+.form-group  .form-control{
+	width:40%;
+	float:left;
+	margin-left: 2%;
+}
+
+footer{
+	background-color:#778899;
+	color: white;
+}
+
